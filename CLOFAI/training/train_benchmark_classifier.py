@@ -15,7 +15,7 @@ class Config:
     SEED = 123
     tasks = ["task1", "task2", "task3", "task4", "task5"]
     args = parse_arguments("Benchmark")
-    dataset_dict = load_dataset("willd98/CLOFAI_test")
+    dataset_dict = load_dataset("willd98/CLOFAI")
     weights_path = args.weights_and_results_path
     results_path = args.weights_and_results_path
 
