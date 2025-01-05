@@ -19,7 +19,7 @@ A diagram of the dataset structure is below.
 To get set up:
 1. Clone the repo: ```git clone https://github.com/Will-Doherty/CLOFAI.git```
 2. Install the required libraries: ```pip install -r requirements.txt```
-3. Install the CLOFAI package by cding to the directory containing setup.py and running ```pip install -e .```
+3. Install the CLOFAI package using ```pip install -e .```
 
 ### Training
 
@@ -33,7 +33,7 @@ The continual learning methods available are:
 - EWC: slows the updating of parameters that are important for performance on previous tasks
 
 Upon running one of the training files using e.g. ```python train_benchmark_classifier.py```, it will error and prompt you for arguments. Follow the instructions in the error message. As an example, training the classifier using the naive method might end up looking like 
-```python train_naive_classifier.py --weights_and_results_path "."```
+```python train_benchmark_classifier.py --weights_and_results_path "path/to/save/results"```
 
 ### Inference
 
