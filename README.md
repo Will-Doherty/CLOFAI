@@ -23,9 +23,11 @@ A diagram of the dataset structure is below.
 ## Replicating our results
 
 To get set up:
-1. Clone the repo: ```git clone https://github.com/Will-Doherty/CLOFAI.git```
-2. Install the required libraries: ```pip install -r requirements.txt```
-3. Install the CLOFAI package using ```pip install -e .```
+1. Create a virtual environment: ```python -m venv .venv```
+2. Activate the virtual environment: ```source .venv/bin/activate```
+3. Clone the repo: ```git clone https://github.com/Will-Doherty/CLOFAI.git```
+4. Install the required libraries: ```pip install -r requirements.txt```
+5. Install the CLOFAI package using ```pip install -e .```
 
 ### Training
 
