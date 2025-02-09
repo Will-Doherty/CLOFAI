@@ -46,7 +46,8 @@ Upon running one of the training files using e.g. ```python train_benchmark_clas
 ### Inference
 
 To run the model at inference, run test_model.py from the *model* directory. This might look like 
-```python CLOFAI/model/test_model.py --results_path "path/to/save/results" --weights_file weights/naive_weights.pth```
+```python CLOFAI/model/test_model.py --results_path "path/to/save/results" --weights_file naive_weights.pth```
+Note that you will need a model weights file (naive_weights.pth is used as an example in the code above).
 
 ## Citing CLOFAI
 
