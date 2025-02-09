@@ -39,3 +39,17 @@ Upon running one of the training files using e.g. ```python train_benchmark_clas
 
 To run the model at inference, run test_model.py from the *model* directory. This might look like 
 ```python CLOFAI/model/test_model.py --results_path "path/to/save/results" --weights_file weights/naive_weights.pth```
+
+## Citing CLOFAI
+
+Please use the following BibTeX entry:
+```bibtex
+@misc{doherty2025clofaidatasetrealfake,
+  title={CLOFAI: A Dataset of Real And Fake Image Classification Tasks for Continual Learning}, 
+  author={William Doherty and Anton Lee and Heitor Murilo Gomes},
+  year={2025},
+  eprint={2501.11140},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2501.11140}
+}
