@@ -2,6 +2,12 @@
 
 The dataset has been uploaded to HuggingFace and is available at this link: https://huggingface.co/datasets/willd98/CLOFAI 
 
+It can be loaded using the following code:
+```
+from datasets import load_dataset  # pip install datasets
+dataset_dict = load_dataset("willd98/CLOFAI")
+```
+
 It is split into five distinct image classification tasks, each of which contains 5000 real images and 5000 fake images. The train/test split is 80/20.
 In each task, the real images are from CIFAR-10, while the fake images are from a generative model trained on CIFAR-10. The generative models used are:
 - Task 1: Variational Autoencoder (VAE)
