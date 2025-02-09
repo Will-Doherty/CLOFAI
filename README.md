@@ -37,5 +37,5 @@ Upon running one of the training files using e.g. ```python train_benchmark_clas
 
 ### Inference
 
-To run the model at inference using our saved weights, run test_model.py from the *model* directory. This might look like 
+To run the model at inference, run test_model.py from the *model* directory. This might look like 
 ```python CLOFAI/model/test_model.py --results_path "path/to/save/results" --weights_file weights/naive_weights.pth```
